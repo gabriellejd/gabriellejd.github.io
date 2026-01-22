@@ -1,6 +1,6 @@
 ---
 title: "Zika Virus Vulnerability Analysis (Brazil)"
-excerpt: "Spatial and regression analysis of Zika virus spread using GIS and public health data." <br/><img src='/images/ZikaPoster.png'>"
+excerpt: "Spatial and regression analysis of Zika virus spread using GIS and public health data. <br/><img src='/images/ZikaPoster.png'>"
 collection: portfolio
 permalink: /portfolio/zika-spatial-analysis/
 ---
