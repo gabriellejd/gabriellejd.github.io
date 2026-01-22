@@ -31,7 +31,19 @@ author:
   email            : "gdominique04@gmail.com" 
   github           : "gabriellejd"
   linkedin         : "gabrielle-dominique-786b4123b"
-  
+
+
+defaults:
+  # Home page
+  - scope:
+      path: ""
+      type: pages
+      # This includes index.md
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
       
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
