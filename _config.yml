@@ -23,7 +23,7 @@ repository               : "gabriellejd/gabriellejd.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "assets/profile.png"
+  avatar           : "/assets/profile.png"
   name             : "Gabrielle Dominique"
   pronouns         : "she/her"  
   bio              : "Data analyst with experience in spatial analysis, regression modeling, and GIS."
