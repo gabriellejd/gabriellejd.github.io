@@ -32,19 +32,6 @@ author:
   github           : "https://github.com/gabriellejd"
   linkedin         : "https://www.linkedin.com/in/gabrielle-dominique-786b4123b"
   
-
-social:
-  type: "Person"
-  name: "Gabrielle Dominique"
-  links:
-    - name: "GitHub"
-      icon: "github"
-      url: "https://github.com/gabriellejd"
-    - name: "LinkedIn"
-      icon: "linkedin"
-      url: "https://www.linkedin.com/in/gabrielle-dominique-786b4123b"
-
-
       
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
