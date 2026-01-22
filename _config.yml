@@ -28,33 +28,11 @@ author:
   pronouns         : "she/her"  
   bio              : "Data analyst with experience in spatial analysis, regression modeling, and GIS."
   location         : "Boston, MA"
-  employer         : ""
-  uri              : ""
   email            : "gdominique04@gmail.com" 
 
-  # Academic websites
-  academia         : ""
-  arxiv            : ""
-  googlescholar    : ""
-  inspire-hep      : ""
-  impactstory      : ""
-  orcid            : ""
-  semantic         : ""
-  ssrn             : ""
-  pubmed           : ""
-  researchgate     : ""
-  scopus           : ""
-  zotero           : ""
 
-
-  # Repositories and software development
-  bitbucket        : ""
-  codepen          : ""
-  dribbble         : ""
   github           : "gabriellejd"
-  kaggle           : ""
-  stackoverflow    : ""
-
+  
   # Social media
   artstation       : ""
   bluesky          : ""
