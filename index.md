@@ -31,7 +31,7 @@ author_profile: true
 
 <div class="project-card">
   <a href="/portfolio/housing-affordability-labor-force-analysis/">
-    <img src="/images/paperthumb.png" alt="Housing Affordability" style="width:200px;">
+    <img src="/images/paperimagethumb.png" alt="Housing Affordability" style="width:200px;">
     <h3>Housing Affordability & Labor Force Analysis</h3>
   </a>
 </div>
