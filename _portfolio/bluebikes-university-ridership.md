@@ -27,7 +27,7 @@ The results help identify which commonly assumed predictors are weak or overstat
 All datasets are publicly available and used for analytical purposes.
 
 ## Repository
-[View Project Presentation](/files/BluebikeAnalysis_gslides.pptx)
+[View Project Presentation](/files/BluebikeAnalysis_gslides.pdf)
 
 ## Maintainers
 Developed and maintained by **Gabrielle Dominique** and Jose Velasquez
