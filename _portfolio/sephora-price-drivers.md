@@ -25,7 +25,7 @@ Data includes product pricing, ratings, review counts, categories, brand, and si
 The analysis highlights how brand strength, product category, and consumer engagement influence pricing differently than ratings, illustrating gaps between perceived value and price positioning.
 
 ## Presentation
-[View Project Presentation](LINK_GOES_HERE)
+[View Project Presentation](/files/sephora-price-drivers-presentation.pdf)
 
 ## Maintainers
 Developed and maintained by **Gabrielle Dominique**  
