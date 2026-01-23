@@ -16,7 +16,7 @@ author_profile: true
 </div>
 
 <div class="project-card">
-  <a href="/portfolio/sephora-price-drivers-analysis/">
+  <a href="/portfolio/sephora-price-drivers/">
     <img src="/files/sephora_summary.pdf" alt="Sephora Analysis" style="width:200px;">
     <h3>Sephora Price Drivers Analysis</h3>
   </a>
