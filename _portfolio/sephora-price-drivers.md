@@ -28,5 +28,4 @@ The analysis highlights how brand strength, product category, and consumer engag
 [View Project Presentation](/files/sephora_summary.pdf)
 
 ## Maintainers
-Developed and maintained by **Gabrielle Dominique**  
-Contributors: Jose Velasquez
+Developed and maintained by **Gabrielle Dominique** and Jose Velasquez
