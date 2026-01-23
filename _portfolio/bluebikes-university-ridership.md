@@ -1,6 +1,6 @@
 ---
 title: "University Influence on Bluebikes Ridership in Boston"
-excerpt: "Spatial and regression analysis of Boston Bluebikes usage to evaluate whether university proximity, student population, and transit access explain bikeshare demand.<br/><img src='/images/bluebikesimage.png'>"
+excerpt: "Spatial and regression analysis of Boston Bluebikes usage to evaluate whether university proximity, student population, and transit access explain bikeshare demand.<br/><img src='/images/bluebikeimage.png'>"
 
 collection: portfolio
 permalink: /portfolio/bluebikes-university-ridership/
@@ -27,7 +27,7 @@ The results help identify which commonly assumed predictors are weak or overstat
 All datasets are publicly available and used for analytical purposes.
 
 ## Repository
-[View the full project on GitHub](https://github.com/gabriellejd/bluebikes-university-ridership-analysis)
+[View Project Presentation](files/BluebikeAnalysis_gslides.pptx)
 
 ## Maintainers
 Developed and maintained by **Gabrielle Dominique** and Jose Velasquez
