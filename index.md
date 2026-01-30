@@ -45,28 +45,28 @@ author_profile: true
 
   <div class="project-card">
     <a href="/portfolio/zika-spatial-analysis/">
-      <img src="/images/zikathumb.png" alt="Zika Virus Project">
+      <img src="/images/zika.jpeg" alt="Zika Virus Project">
       <h3>Zika Virus Vulnerability Analysis (Brazil)</h3>
     </a>
   </div>
 
   <div class="project-card">
     <a href="/portfolio/sephora-price-drivers/">
-      <img src="/images/sephorathumb.png" alt="Sephora Analysis">
+      <img src="/images/makeup.jpeg" alt="Sephora Analysis">
       <h3>Sephora Price Drivers Analysis</h3>
     </a>
   </div>
 
   <div class="project-card">
     <a href="/portfolio/bluebikes-university-ridership/">
-      <img src="/images/bluebikethumb.png" alt="Bluebikes Project">
+      <img src="/images/bluebikes.jpeg" alt="Bluebikes Project">
       <h3>University Influence on Bluebikes Ridership</h3>
     </a>
   </div>
 
   <div class="project-card">
     <a href="/portfolio/housing-affordability-labor-force-analysis/">
-      <img src="/images/paperimagethumb.png" alt="Housing Affordability">
+      <img src="/images/workforce.jpeg" alt="Housing Affordability">
       <h3>Housing Affordability & Labor Force Analysis</h3>
     </a>
   </div>
