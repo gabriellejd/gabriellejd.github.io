@@ -66,7 +66,7 @@ author_profile: true
 
   <div class="project-card">
     <a href="/portfolio/housing-affordability-labor-force-analysis/">
-      <img src="/images/workforce.jpeg" alt="Housing Affordability">
+      <img src="/images/workforce.jpg" alt="Housing Affordability">
       <h3>Housing Affordability & Labor Force Analysis</h3>
     </a>
   </div>
