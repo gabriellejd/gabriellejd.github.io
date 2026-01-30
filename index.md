@@ -31,8 +31,11 @@ author_profile: true
 .project-card img {
   width: 100%;
   max-width: 220px;
-  height: auto;
-  margin-bottom: 10px;
+  height: 140px;        /* uniform height */
+  object-fit: cover;   /* crop nicely */
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .project-card h3 {
@@ -66,7 +69,7 @@ author_profile: true
 
   <div class="project-card">
     <a href="/portfolio/housing-affordability-labor-force-analysis/">
-      <img src="/images/workforce.jpg" alt="Housing Affordability">
+      <img src="/images/workforce.jpeg" alt="Housing Affordability">
       <h3>Housing Affordability & Labor Force Analysis</h3>
     </a>
   </div>
