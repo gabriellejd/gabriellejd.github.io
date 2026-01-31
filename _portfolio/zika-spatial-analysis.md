@@ -46,9 +46,7 @@ Data spans multiple years and includes vector, raster, and tabular formats, harm
 The resulting vulnerability index identifies municipalities with overlapping environmental and infrastructure risk factors, providing a framework for prioritizing surveillance and intervention efforts.
 
 ---
-
-### Presentation 
-
+## Presentation
 [View Project Presentation](/files/Zika Project Presentation.pdf)
 ---
 
