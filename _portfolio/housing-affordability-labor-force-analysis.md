@@ -1,8 +1,10 @@
 ---
 title: "Housing Affordability & Labor Force Analysis (U.S.)"
-excerpt: "Regression analysis of county-level housing affordability and labor force participation using 2023 ACS data.<br/><img src='/images/paperimage.png'>"
+excerpt: "Regression analysis of county-level housing affordability and labor force participation using 2023 ACS data."
 collection: portfolio
 permalink: /portfolio/housing-affordability-labor-force-analysis/
+header:
+  teaser: /images/workforce.jpg
 ---
 
 ## Project Overview
