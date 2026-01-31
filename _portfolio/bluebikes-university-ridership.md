@@ -1,11 +1,12 @@
 ---
 title: "University Influence on Bluebikes Ridership in Boston"
+collection: portfolio
+permalink: /portfolio/bluebikes-university-ridership/
 excerpt: "Spatial and regression analysis of Boston Bluebikes usage to evaluate whether university proximity, student population, and transit access explain bikeshare demand."
 header:
   teaser: /images/bluebikes.jpeg
-collection: portfolio
-permalink: /portfolio/bluebikes-university-ridership/
 ---
+
 
 ## Project Overview
 This project analyzes Bluebikes ridership in the Boston area to assess whether university campus characteristics help explain usage patterns. Using spatial analysis and regression modeling, it evaluates proximity to bike stations, transit access, and student population density.
