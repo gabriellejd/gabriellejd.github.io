@@ -3,6 +3,8 @@ title: "Pricing & Perceived Value in Beauty Products"
 excerpt: "An analysis of Sephora product data to identify key drivers of pricing and consumer ratings using exploratory analysis and predictive modeling.<br/><img src='/images/sephoraimage.png'>"
 collection: portfolio
 permalink: /portfolio/sephora-price-drivers/
+header:
+  teaser: /images/makeup.jpeg
 ---
 
 ## Project Overview
