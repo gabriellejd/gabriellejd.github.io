@@ -61,5 +61,5 @@ I’m interested in opportunities where I can apply business analytics to real-w
 
 ## Resume
 
-[View my resume](/files/Gdominiqueresume.pdf)
+[View my resume](/files/GDominiqueresume.pdf)
 
