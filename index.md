@@ -72,25 +72,37 @@ classes: wide
   .va-skill span { font-weight: 600; color: var(--va-ink); font-size: .95rem; }
 
   /* Projects */
-  .va-projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
-  .va-project {
-    background: var(--va-card); border: 1px solid var(--va-line); border-radius: 10px;
-    overflow: hidden; text-decoration: none; color: inherit; display: flex; flex-direction: column;
+  .va-projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.75rem; }
+  .page__content a.va-project {
+    display: flex; flex-direction: row; background: #f7f9fa; border: none;
+    border-radius: 6px; overflow: hidden; text-decoration: none !important;
+    color: inherit !important; box-shadow: none; min-height: 230px;
     transition: transform .15s ease, box-shadow .15s ease;
   }
-  .va-project:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(15,36,56,.12); }
-  .va-project .va-thumb { height: 170px; background: var(--va-bg); }
-  .va-project .va-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .va-project .va-body { padding: 1.1rem 1.2rem 1.3rem; }
-  .va-project h3 { margin: 0 0 .4rem; font-size: 1.1rem; color: var(--va-navy); }
-  .va-project p { margin: 0; color: var(--va-muted); font-size: .92rem; line-height: 1.5; }
+  .page__content a.va-project:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(15,36,56,.14); }
+  .va-project .va-thumb { position: relative; flex: 0 0 38%; background: #dfe7ec; }
+  .va-project .va-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; position: absolute; inset: 0; }
+  .va-project .va-thumb::after {
+    content: "View Project"; position: absolute; inset: 0; display: flex;
+    align-items: center; justify-content: center; color: #fff; font-weight: 600;
+    background: rgba(15,36,56,.65); opacity: 0; transition: opacity .15s ease;
+  }
+  .va-project:hover .va-thumb::after { opacity: 1; }
+  .va-project .va-body { padding: 1.4rem 1.5rem; flex: 1; }
+  .va-project h3 { margin: 0 0 .6rem; font-size: 1.2rem; line-height: 1.25; color: var(--va-navy); text-decoration: none; }
+  .va-project p { margin: 0; color: var(--va-muted); font-size: .95rem; line-height: 1.6; text-decoration: none; }
   .va-more { margin-top: 1.75rem; }
-  .va-more a { color: var(--va-teal); font-weight: 600; }
+  .page__content .va-more a { color: var(--va-teal); font-weight: 600; text-decoration: none; }
+  .page__content a.va-btn { text-decoration: none; }
+  .page__content a.va-btn.primary, .page__content a.va-btn.ghost { color: #fff; }
 
   @media (max-width: 720px) {
     .va-hero h1 { font-size: 2.1rem; }
     .va-about { grid-template-columns: 1fr; text-align: center; }
     .va-about img { max-width: 180px; margin: 0 auto; }
+    .va-projects { grid-template-columns: 1fr; }
+    .va-project { flex-direction: column; }
+    .va-project .va-thumb { flex: 0 0 180px; }
   }
 </style>
 
@@ -203,7 +215,7 @@ classes: wide
           </div>
           <div class="va-body">
             <h3>{{ p.title }}</h3>
-            <p>{{ p.excerpt | strip_html | truncate: 140 }}</p>
+            <p>{{ p.excerpt | strip_html | truncate: 230 }}</p>
           </div>
         </a>
       {% endfor %}
