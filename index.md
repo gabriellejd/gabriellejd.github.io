@@ -56,6 +56,7 @@ classes: wide
   .va-meta a { color: var(--va-teal); }
 
   /* Skills */
+  .va-alt { background: var(--va-bg); }
   .va-skills { display: flex; flex-direction: column; gap: 2.5rem; align-items: center; }
   .va-skillrow { display: flex; justify-content: center; flex-wrap: wrap; gap: 2.5rem 3.5rem; width: 100%; }
   .va-skill { width: 130px; text-align: center; transition: transform .15s ease; }
