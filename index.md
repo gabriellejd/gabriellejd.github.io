@@ -56,20 +56,13 @@ classes: wide
   .va-meta a { color: var(--va-teal); }
 
   /* Skills */
-  .va-alt { background: var(--va-bg); }
-  .va-skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 1rem; }
-  .va-skill {
-    background: var(--va-card); border: 1px solid var(--va-line); border-radius: 10px;
-    padding: 1.4rem .75rem; text-align: center;
-    transition: transform .15s ease, box-shadow .15s ease;
-  }
-  .va-skill:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(15,36,56,.1); }
-  .va-skill img, .va-skill .va-mono { width: 48px; height: 48px; margin: 0 auto .7rem; display: block; }
-  .va-skill .va-mono {
-    background: var(--va-navy); color: #fff; border-radius: 10px;
-    font-weight: 700; line-height: 48px; font-size: 1rem;
-  }
-  .va-skill span { font-weight: 600; color: var(--va-ink); font-size: .95rem; }
+  .va-skills { display: flex; flex-direction: column; gap: 2.5rem; align-items: center; }
+  .va-skillrow { display: flex; justify-content: center; flex-wrap: wrap; gap: 2.5rem 3.5rem; width: 100%; }
+  .va-skill { width: 130px; text-align: center; transition: transform .15s ease; }
+  .va-skill:hover { transform: translateY(-4px); }
+  .va-skill img, .va-skill svg { width: 52px; height: 52px; margin: 0 auto .8rem; display: block; color: #3b6fd4; }
+  .va-skill .va-mono { width: 52px; height: 52px; margin: 0 auto .8rem; background: var(--va-navy); color: #fff; border-radius: 10px; font-weight: 700; line-height: 52px; }
+  .va-skill span { font-weight: 600; color: var(--va-ink); font-size: 1.05rem; }
 
   /* Projects */
   .va-projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.75rem; }
@@ -153,52 +146,46 @@ classes: wide
     <h2>Skills &amp; tools</h2>
     <p class="va-sub">What I use to get from raw data to a finished answer.</p>
     <div class="va-skills">
-
-      <div class="va-skill">
-        <img src="https://cdn.simpleicons.org/r/276DC3" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>R</div>'">
-        <span>R</span>
+      <div class="va-skillrow">
+        <div class="va-skill">
+          <img src="https://cdn.simpleicons.org/r/276DC3" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>R</div>'">
+          <span>R</span>
+        </div>
+        <div class="va-skill">
+          <img src="https://cdn.simpleicons.org/python/3776AB" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>Py</div>'">
+          <span>Python</span>
+        </div>
+        <div class="va-skill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+          <span>SQL</span>
+        </div>
+        <div class="va-skill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><circle cx="8" cy="15" r="1" fill="currentColor"/><circle cx="12" cy="11" r="1" fill="currentColor"/><circle cx="16" cy="12" r="1" fill="currentColor"/><circle cx="19" cy="7" r="1" fill="currentColor"/><path d="M6 17L20 6"/></svg>
+          <span>Stata</span>
+        </div>
+        <div class="va-skill">
+          <img src="https://cdn.simpleicons.org/cplusplus/00599C" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>C++</div>'">
+          <span>C++</span>
+        </div>
       </div>
-
-      <div class="va-skill">
-        <div class="va-mono">Stata</div>
-        <span>Stata</span>
+      <div class="va-skillrow">
+        <div class="va-skill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+          <span>Tableau</span>
+        </div>
+        <div class="va-skill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#F2C811"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6" fill="currentColor"/><rect x="12" y="8" width="3" height="10" fill="currentColor"/><rect x="17" y="5" width="3" height="13" fill="currentColor"/></svg>
+          <span>Power BI</span>
+        </div>
+        <div class="va-skill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.3-6-10a6 6 0 1112 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>
+          <span>ArcGIS Pro</span>
+        </div>
+        <div class="va-skill">
+          <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#00A1E0"><path d="M7 18a4.5 4.5 0 01-.6-8.96A6 6 0 0118 10a4 4 0 01-.5 8H7z"/></svg>
+          <span>Salesforce</span>
+        </div>
       </div>
-
-      <div class="va-skill">
-        <img src="https://cdn.simpleicons.org/python/3776AB" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>Py</div>'">
-        <span>Python</span>
-      </div>
-
-      <div class="va-skill">
-        <div class="va-mono">SQL</div>
-        <span>SQL</span>
-      </div>
-
-      <div class="va-skill">
-        <img src="https://cdn.simpleicons.org/cplusplus/00599C" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>C++</div>'">
-        <span>C++</span>
-      </div>
-
-      <div class="va-skill">
-        <img src="https://cdn.simpleicons.org/powerbi/F2C811" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>BI</div>'">
-        <span>Power BI</span>
-      </div>
-
-      <div class="va-skill">
-        <img src="https://cdn.simpleicons.org/tableau/E97627" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>Tb</div>'">
-        <span>Tableau</span>
-      </div>
-
-      <div class="va-skill">
-        <img src="https://cdn.simpleicons.org/arcgis/2C7AC3" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>Arc</div>'">
-        <span>ArcGIS Pro</span>
-      </div>
-
-      <div class="va-skill">
-        <img src="https://cdn.simpleicons.org/salesforce/00A1E0" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>SF</div>'">
-        <span>Salesforce</span>
-      </div>
-
     </div>
   </div>
 </section>
