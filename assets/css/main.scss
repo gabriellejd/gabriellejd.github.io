@@ -39,11 +39,9 @@
 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+    "vendor/font-awesome/brands";
 
-   /* ===== Vigie Analytics: single solid light theme =====
-   Paste this at the VERY BOTTOM of assets/css/main.scss
-   (below the @import lines). */
+/* ===== Vigie Analytics: single solid light theme ===== */
 
 :root,
 :root[data-theme="dark"],
@@ -99,10 +97,8 @@ body.layout--single,
 /* Hide the light/dark toggle if the template has one */
 #theme-toggle,
 .theme-toggle,
-.masthead__menu-item--lg.theme-toggle,
-button[aria-label*="theme" i] {
+.masthead__menu-item--lg.theme-toggle {
   display: none !important;
 }
 
 a { color: #1aa6a6; }
-;
