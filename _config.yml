@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Gabrielle Dominique / Analytics Portfolio"
+title                    : "Vigie Analytics"
 title_separator          : "-"
 name                     : &name "Gabrielle Dominique"
 description              : &description "Gabrielle Dominique's analytics portfolio showcasing projects in data analysis, GIS, regression modeling, and data-driven insights"   # Update this with a general description of your site, this is the default if not overridden by a page
