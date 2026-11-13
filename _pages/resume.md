@@ -4,6 +4,6 @@ title: "Resume"
 permalink: /resume/
 author_profile: true
 redirect_to:
-  - /files/GDominiqueresume.pdf
+  - /files/Gdominiqueresume.docx
 ---
 
