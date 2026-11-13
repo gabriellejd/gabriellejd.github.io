@@ -40,4 +40,69 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
+
+   /* ===== Vigie Analytics: single solid light theme =====
+   Paste this at the VERY BOTTOM of assets/css/main.scss
+   (below the @import lines). */
+
+:root,
+:root[data-theme="dark"],
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+html,
+body,
+body.layout--single,
+.initial-content,
+.page,
+.page__content,
+.page__footer,
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links,
+.sidebar,
+.author__urls,
+.notebook {
+  background: #ffffff !important;
+  color: #1d2b36 !important;
+}
+
+/* Header: navy bar to match the home page hero */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: #0f2438 !important;
+  border: none !important;
+}
+
+.greedy-nav a,
+.greedy-nav .site-title,
+.greedy-nav button {
+  color: #ffffff !important;
+}
+
+.greedy-nav a:hover {
+  color: #7fe0e0 !important;
+}
+
+/* Footer */
+.page__footer {
+  background: #f5f8fa !important;
+  border-top: 1px solid #e2e9ee;
+}
+
+/* Hide the light/dark toggle if the template has one */
+#theme-toggle,
+.theme-toggle,
+.masthead__menu-item--lg.theme-toggle,
+button[aria-label*="theme" i] {
+  display: none !important;
+}
+
+a { color: #1aa6a6; }
 ;
