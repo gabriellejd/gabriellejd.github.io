@@ -101,4 +101,19 @@ body.layout--single,
   display: none !important;
 }
 
+/* Remove the gray boxes / underline inside the header */
+.masthead *,
+.greedy-nav * {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.greedy-nav .site-title,
+.greedy-nav a {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+.greedy-nav .hidden-links {
+  background: #0f2438 !important;
+}
+
 a { color: #1aa6a6; }
