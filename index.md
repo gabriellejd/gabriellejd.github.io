@@ -113,7 +113,7 @@ classes: wide
     <h1>Vigie Analytics</h1>
     <p>Turning messy data into clear, defensible answers. I help organizations understand where, why, and how much, using GIS, statistical modeling, and clean visual storytelling.</p>
     <a class="va-btn primary" href="#projects">View projects</a>
-    <a class="va-btn ghost" href="mailto:gdominique04@gmail.com">Work with me</a>
+    <a class="va-btn ghost" href="mailto:vigieanalytics@gmail.com">Work with me</a>
   </div>
 </header>
 
@@ -137,7 +137,7 @@ classes: wide
         </p>
         <p class="va-meta">
           Based in Boston, MA ·
-          <a href="mailto:gdominique04@gmail.com">Email</a> ·
+          <a href="mailto:vigieanalytics@gmail.com">Email</a> ·
           <a href="https://www.linkedin.com/in/gabrielle-dominique-786b4123b">LinkedIn</a> ·
           <a href="https://github.com/gabriellejd">GitHub</a> ·
           <a href="{{ '/resume/' | relative_url }}">Resume</a>
@@ -170,6 +170,11 @@ classes: wide
       </div>
 
       <div class="va-skill">
+        <div class="va-mono">SQL</div>
+        <span>SQL</span>
+      </div>
+
+      <div class="va-skill">
         <img src="https://cdn.simpleicons.org/cplusplus/00599C" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>C++</div>'">
         <span>C++</span>
       </div>
@@ -187,6 +192,11 @@ classes: wide
       <div class="va-skill">
         <img src="https://cdn.simpleicons.org/arcgis/2C7AC3" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>Arc</div>'">
         <span>ArcGIS Pro</span>
+      </div>
+
+      <div class="va-skill">
+        <img src="https://cdn.simpleicons.org/salesforce/00A1E0" alt="" onerror="this.outerHTML='<div class=&quot;va-mono&quot;>SF</div>'">
+        <span>Salesforce</span>
       </div>
 
     </div>
